@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<title>PCIV - Assignment</title>
+    <link rel="icon" type="image/png" href="./favicon.png" sizes="200x200">
+	<link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <div>
+            <b>PCIV</b>
+            Assignment:
+            <span id="assignment_number"></span>
+        </div>
+        <span class="divider"></span>
+        <span id="name">{your name}</span>
+    </nav>
+    <main>
+        <div id="controls">
+            <p> &nbsp;&nbsp;select category: 
+                <select id="paraselect"> 
+                    <option> Paper Type </option>
+                    <option> Citation Count </option>
+                    <option> Award </option>
+                </select>
+                &nbsp;&nbsp;select dr method: 
+                <select id="drselect"> 
+                    <option> PCA </option>
+                    <option> t-SNE </option>
+                </select>
+                &nbsp;&nbsp;select column: 
+                <select id="cselect"> 
+                    <option> Abstract </option>
+                    <option> Author Names </option>
+                </select>
+            </p>
+        </div>
+        <div id="scatterplot"></div>
+    </main>
+    <script src="./build/bundle.js"></script>
+</body>
+</html>
