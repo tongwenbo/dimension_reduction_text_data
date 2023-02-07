@@ -12,6 +12,8 @@ Other than the environment setup you provided, install the following packages fo
 1. `pip install matplotlib`
 2. `pip install nltk`
 3. `pip install scikit-learn`<br/>
+<br/>
+
 To load the data to the database, just run the script data_to_sqlite.ipydb. Remember using runAll.<br/>
 To initialize the flask server, use `python .\server.py`
 
